@@ -1,1 +1,13 @@
-{"products":[]}
+{
+  "products": [
+    {
+      "asin": "B00PBX3L7K",
+      "name": "COSRX Advanced Snail 96 Mucin Power Essence 100ml | Snail Secretion Filtrate 96% | Skin Repair Serum | CPNP Registered, Korean Skin Care, Cruelty Free, Paraben Free, Alcohol Free",
+      "price": "\u00a313.20",
+      "image_url": "https://m.media-amazon.com/images/I/416kUGx2rQL._AC_SY300_SX300_QL70_ML2_.jpg",
+      "affiliate_link": "https://www.amazon.co.uk/dp/B00PBX3L7K?tag=sgukl-21",
+      "category": "Beauty",
+      "added_at": "2026-03-01T16:36:59.639335"
+    }
+  ]
+}
