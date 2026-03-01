@@ -1,6 +1,15 @@
 {
   "products": [
     {
+      "asin": "B07CHPWFXK",
+      "name": "CeraVe Moisturising Cream, Face & Body, With 3 essential ceramides & hyaluronic acid, For dry to very dry skin, 454 g/16 oz",
+      "price": "\u00a311.95",
+      "image_url": "https://m.media-amazon.com/images/I/61d4C1RmpIL._AC_SX342_SY445_QL70_ML2_.jpg",
+      "affiliate_link": "https://www.amazon.co.uk/dp/B07CHPWFXK?tag=sgukl-21",
+      "category": "Beauty",
+      "added_at": "2026-03-01T16:37:32.824604"
+    },
+    {
       "asin": "B00PBX3L7K",
       "name": "COSRX Advanced Snail 96 Mucin Power Essence 100ml | Snail Secretion Filtrate 96% | Skin Repair Serum | CPNP Registered, Korean Skin Care, Cruelty Free, Paraben Free, Alcohol Free",
       "price": "\u00a313.20",
