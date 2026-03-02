@@ -1,6 +1,15 @@
 {
   "products": [
     {
+      "asin": "B0C742G2KZ",
+      "name": "VIDUSSA Womens Off Shoulder Silk Satin Tops Short Sleeve Casual Dressy Tunic Blouse Shirts",
+      "price": "Check price",
+      "image_url": "https://m.media-amazon.com/images/I/716RZ1-4wuL._AC_SX342_SY445_QL70_ML2_.jpg",
+      "affiliate_link": "https://www.amazon.co.uk/dp/B0C742G2KZ?tag=sgukl-21",
+      "category": "Fashion",
+      "added_at": "2026-03-02T20:53:54.659634"
+    },
+    {
       "asin": "B07CHPWFXK",
       "name": "CeraVe Moisturising Cream, Face & Body, With 3 essential ceramides & hyaluronic acid, For dry to very dry skin, 454 g/16 oz",
       "price": "\u00a311.95",
