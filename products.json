@@ -1,6 +1,15 @@
 {
   "products": [
     {
+      "asin": "B0DD7R2XG9",
+      "name": "Zeagoo Women's Trench Coats Double-Breasted Long Coat with Belt",
+      "price": "\u00a340.08",
+      "image_url": "https://m.media-amazon.com/images/I/61WOD1AgUNL._AC_SX342_SY445_QL70_ML2_.jpg",
+      "affiliate_link": "https://www.amazon.co.uk/dp/B0DD7R2XG9?tag=sgukl-21",
+      "category": "Fashion",
+      "added_at": "2026-03-03T22:23:14.609501"
+    },
+    {
       "asin": "B073XV2RXP",
       "name": "Women's #MadeInUSA Women's 3/4 Sleeve Deep V-Neck Maxi Faux Wrap Dress",
       "price": "\u00a347.71",
