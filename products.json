@@ -1,6 +1,15 @@
 {
   "products": [
     {
+      "asin": "B08LMLGQM6",
+      "name": "TOPONSKY Womens Winter Warm Lapel Faux Fur Fuzzy Coat Jacket Overcoat",
+      "price": "\u00a327.59",
+      "image_url": "https://m.media-amazon.com/images/I/51bqGC+cgSL._AC_SY445_SX342_QL70_ML2_.jpg",
+      "affiliate_link": "https://www.amazon.co.uk/dp/B08LMLGQM6?tag=sgukl-21",
+      "category": "Fashion",
+      "added_at": "2026-03-03T22:18:18.805895"
+    },
+    {
       "asin": "B0CG8Z5HRH",
       "name": "GRECERELLE Women's Blazer Suit Elegant 3/4 Sleeve Jackets Business Casual Work Office Blazer Jacket Suiting & Blazers Cardigans with Pockets Button for Ladies",
       "price": "\u00a327.99",
