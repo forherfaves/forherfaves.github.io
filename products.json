@@ -1,6 +1,15 @@
 {
   "products": [
     {
+      "asin": "B07H61JFTV",
+      "name": "Skechers Women's Uno Stand On Air Trainers",
+      "price": "Check price",
+      "image_url": "https://m.media-amazon.com/images/I/51IoRuN9NcL._AC_SY395_SX395_QL70_ML2_.jpg",
+      "affiliate_link": "https://www.amazon.co.uk/dp/B07H61JFTV?tag=sgukl-21",
+      "category": "Fashion",
+      "added_at": "2026-03-03T20:39:14.035212"
+    },
+    {
       "asin": "B07P3H8XT5",
       "name": "SINOPHANT High Waisted Leggings for Women, Buttery Soft Elastic Opaque Tummy Control Leggings, Plus Size Workout Gym Yoga",
       "price": "Check price",
