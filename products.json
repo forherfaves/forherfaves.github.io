@@ -1,6 +1,15 @@
 {
   "products": [
     {
+      "asin": "B0FRGF81LD",
+      "name": "adidas Women's VL Court 3.0 Shoes",
+      "price": "\u00a333.03",
+      "image_url": "https://m.media-amazon.com/images/I/61v6d7ghmIL._AC_SY395_SX395_QL70_ML2_.jpg",
+      "affiliate_link": "https://www.amazon.co.uk/dp/B0FRGF81LD?tag=sgukl-21",
+      "category": "Fashion",
+      "added_at": "2026-03-03T20:40:27.741410"
+    },
+    {
       "asin": "B07H61JFTV",
       "name": "Skechers Women's Uno Stand On Air Trainers",
       "price": "Check price",
