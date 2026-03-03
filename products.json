@@ -1,6 +1,15 @@
 {
   "products": [
     {
+      "asin": "B0C742G2KZ",
+      "name": "VIDUSSA Womens Off Shoulder Silk Satin Tops Short Sleeve Casual Dressy Tunic Blouse Shirts",
+      "price": "\u00a321.84",
+      "image_url": "https://m.media-amazon.com/images/I/716RZ1-4wuL._AC_SX342_SY445_QL70_ML2_.jpg",
+      "affiliate_link": "https://www.amazon.co.uk/dp/B0C742G2KZ?tag=sgukl-21",
+      "category": "Fashion",
+      "added_at": "2026-03-03T22:21:51.141352"
+    },
+    {
       "asin": "B0DFMX5LDT",
       "name": "e.l.f. Camo Liquid Blush, Long-lasting Liquid Blush For High-pigment Color, Creates A Soft, Dewy Finish, Vegan & Cruelty-free, Cheeky Lychee",
       "price": "\u00a37.93",
