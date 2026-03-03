@@ -1,3 +1,13 @@
 {
-  "products": []
+  "products": [
+    {
+      "asin": "B0CG8Z5HRH",
+      "name": "GRECERELLE Women's Blazer Suit Elegant 3/4 Sleeve Jackets Business Casual Work Office Blazer Jacket Suiting & Blazers Cardigans with Pockets Button for Ladies",
+      "price": "\u00a327.99",
+      "image_url": "https://m.media-amazon.com/images/I/81X1S1FSAAL._AC_SY445_SX342_QL70_ML2_.jpg",
+      "affiliate_link": "https://www.amazon.co.uk/dp/B0CG8Z5HRH?tag=sgukl-21",
+      "category": "Fashion",
+      "added_at": "2026-03-03T22:17:39.012654"
+    }
+  ]
 }
