@@ -1,6 +1,15 @@
 {
   "products": [
     {
+      "asin": "B0DFMX5LDT",
+      "name": "e.l.f. Camo Liquid Blush, Long-lasting Liquid Blush For High-pigment Color, Creates A Soft, Dewy Finish, Vegan & Cruelty-free, Cheeky Lychee",
+      "price": "\u00a37.93",
+      "image_url": "https://m.media-amazon.com/images/I/51QESexZvML._AC_SY300_SX300_QL70_ML2_.jpg",
+      "affiliate_link": "https://www.amazon.co.uk/dp/B0DFMX5LDT?tag=sgukl-21",
+      "category": "Beauty",
+      "added_at": "2026-03-03T22:21:11.217957"
+    },
+    {
       "asin": "B0FPRHVF6H",
       "name": "STANLEY Quencher H2.0 Flowstate Tumbler 1.2L - Cold for 11 Hours - Iced for 48 Hours - Metal Water Bottle with Straw, Handle and Lid - Dishwasher Safe - Travel Mug for Cold Drinks - Rose Petal Motion",
       "price": "\u00a350.00",
