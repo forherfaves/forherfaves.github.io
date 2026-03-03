@@ -1,6 +1,15 @@
 {
   "products": [
     {
+      "asin": "B0FPRHVF6H",
+      "name": "STANLEY Quencher H2.0 Flowstate Tumbler 1.2L - Cold for 11 Hours - Iced for 48 Hours - Metal Water Bottle with Straw, Handle and Lid - Dishwasher Safe - Travel Mug for Cold Drinks - Rose Petal Motion",
+      "price": "\u00a350.00",
+      "image_url": "https://m.media-amazon.com/images/I/71CdTZcl9gL._AC_SY300_SX300_QL70_ML2_.jpg",
+      "affiliate_link": "https://www.amazon.co.uk/dp/B0FPRHVF6H?tag=sgukl-21",
+      "category": "Lifestyle",
+      "added_at": "2026-03-03T22:20:34.248278"
+    },
+    {
       "asin": "B07CHPWFXK",
       "name": "CeraVe Moisturising Cream, Face & Body, with 3 Essential Ceramides & Hyaluronic Acid for Dry to Very Dry Skin, Developed with Dermatologists, Fragrance-Free, 454g/16oz",
       "price": "\u00a311.95",
