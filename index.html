@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>For Her Faves</title>
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
             background: #fdf8f5;
@@ -52,19 +57,21 @@
             background: white;
             border-radius: 16px;
             overflow: hidden;
-            box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
             transition: transform 0.2s, box-shadow 0.2s;
         }
 
         .card:hover {
             transform: translateY(-4px);
-            box-shadow: 0 8px 24px rgba(0,0,0,0.10);
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.10);
         }
 
         .card img {
             width: 100%;
             height: 320px;
-            object-fit: cover;
+            object-fit: contain;
+            background: #f9f9f9;
+            padding: 12px;
         }
 
         .card-body {
@@ -131,38 +138,45 @@
         }
 
         @media (max-width: 400px) {
-            .grid { grid-template-columns: 1fr; padding: 16px; }
-            header h1 { font-size: 20px; }
+            .grid {
+                grid-template-columns: 1fr;
+                padding: 16px;
+            }
+
+            header h1 {
+                font-size: 20px;
+            }
         }
     </style>
 </head>
+
 <body>
 
-<header>
-    <h1>For Her Faves</h1>
-    <p>Curated picks, just for you</p>
-</header>
+    <header>
+        <h1>For Her Faves</h1>
+        <p>Curated picks, just for you</p>
+    </header>
 
-<div class="grid" id="grid">
-    <div class="empty">Loading latest picks...</div>
-</div>
+    <div class="grid" id="grid">
+        <div class="empty">Loading latest picks...</div>
+    </div>
 
-<footer>
-    <p>As an Amazon Associate I earn from qualifying purchases.</p>
-</footer>
+    <footer>
+        <p>As an Amazon Associate I earn from qualifying purchases.</p>
+    </footer>
 
-<script>
-    fetch('products.json')
-        .then(r => r.json())
-        .then(data => {
-            const grid = document.getElementById('grid');
-            
-            if (!data.products || data.products.length === 0) {
-                grid.innerHTML = '<div class="empty">New picks coming soon! Follow us on Instagram @forherfaves</div>';
-                return;
-            }
+    <script>
+        fetch('products.json')
+            .then(r => r.json())
+            .then(data => {
+                const grid = document.getElementById('grid');
 
-            grid.innerHTML = data.products.map(p => `
+                if (!data.products || data.products.length === 0) {
+                    grid.innerHTML = '<div class="empty">New picks coming soon! Follow us on Instagram @forherfaves</div>';
+                    return;
+                }
+
+                grid.innerHTML = data.products.map(p => `
                 <div class="card">
                     <img src="${p.image_url}" alt="${p.name}" loading="lazy">
                     <div class="card-body">
@@ -173,12 +187,12 @@
                     </div>
                 </div>
             `).join('');
-        })
-        .catch(() => {
-            document.getElementById('grid').innerHTML = '<div class="empty">New picks coming soon!</div>';
-        });
-</script>
+            })
+            .catch(() => {
+                document.getElementById('grid').innerHTML = '<div class="empty">New picks coming soon!</div>';
+            });
+    </script>
 
 </body>
-</html>
 
+</html>
