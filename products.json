@@ -1,6 +1,15 @@
 {
   "products": [
     {
+      "asin": "B0FRGF81LD",
+      "name": "adidas Women's VL Court 3.0 Shoes",
+      "price": "\u00a325.51",
+      "image_url": "https://m.media-amazon.com/images/I/61v6d7ghmIL._AC_SY395_SX395_QL70_ML2_.jpg",
+      "affiliate_link": "https://www.amazon.co.uk/dp/B0FRGF81LD?tag=sgukl-21",
+      "category": "Fashion",
+      "added_at": "2026-03-07T17:30:12.344823"
+    },
+    {
       "asin": "B079PL1L5G",
       "name": "Amazon Essentials Women's Regular-Fit Long-Sleeve Crewneck T-Shirt (Available in Plus Size)",
       "price": "\u00a310.40",
