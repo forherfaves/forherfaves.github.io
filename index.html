@@ -5,6 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>For Her Faves</title>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CYF1QP9TNM"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-CYF1QP9TNM');
+    </script>
+
     <style>
         * {
             margin: 0;
@@ -160,6 +170,7 @@
         <p>Curated picks, just for you</p>
         <div style="margin-top: 12px; display: flex; justify-content: center; gap: 16px;">
             <a href="https://www.instagram.com/forherfaves" target="_blank"
+                onclick="gtag('event', 'social_click', { platform: 'instagram', link_url: 'https://www.instagram.com/forherfaves' });"
                 style="text-decoration: none; color: #2d2d2d; font-size: 13px; display: flex; align-items: center; gap: 6px;">
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
                     stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -170,6 +181,7 @@
                 @forherfaves
             </a>
             <a href="https://www.x.com/forherfaves" target="_blank"
+                onclick="gtag('event', 'social_click', { platform: 'x_twitter', link_url: 'https://www.x.com/forherfaves' });"
                 style="text-decoration: none; color: #2d2d2d; font-size: 13px; display: flex; align-items: center; gap: 6px;">
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
                     <path
@@ -189,6 +201,21 @@
     </footer>
 
     <script>
+        // ── Scroll Depth Tracking ──────────────────────────────────────────
+        const scrollMilestones = [25, 50, 75, 100];
+        const scrollFired = new Set();
+
+        window.addEventListener('scroll', () => {
+            const scrolled = (window.scrollY + window.innerHeight) / document.documentElement.scrollHeight * 100;
+            scrollMilestones.forEach(milestone => {
+                if (scrolled >= milestone && !scrollFired.has(milestone)) {
+                    scrollFired.add(milestone);
+                    gtag('event', 'scroll_depth', { depth_percent: milestone });
+                }
+            });
+        });
+
+        // ── Product Grid ───────────────────────────────────────────────────
         fetch('products.json')
             .then(r => r.json())
             .then(data => {
@@ -206,7 +233,15 @@
                         <div class="card-category">${p.category}</div>
                         <div class="card-name">${p.name}</div>
                         <div class="card-price">${p.price}</div>
-                        <a href="${p.affiliate_link}" class="shop-btn" target="_blank">Shop Now</a>
+                        <a href="${p.affiliate_link}"
+                           class="shop-btn"
+                           target="_blank"
+                           onclick="gtag('event', 'shop_now_click', {
+                               product_name: '${p.name.replace(/'/g, "\\'")}',
+                               product_category: '${p.category}',
+                               product_price: '${p.price}',
+                               link_url: '${p.affiliate_link}'
+                           });">Shop Now</a>
                     </div>
                 </div>
             `).join('');
