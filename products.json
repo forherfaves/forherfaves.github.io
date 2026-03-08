@@ -1,6 +1,15 @@
 {
   "products": [
     {
+      "asin": "B0BN4LYFVL",
+      "name": "Applied Nutrition Creatine Flavoured - Creatine Monohydrate Micronized Powder with Flavour, Increases High-Intensity Physical Performance (250g - 50 Servings) (Strawberry & Raspberry)",
+      "price": "\u00a39.00",
+      "image_url": "https://m.media-amazon.com/images/I/81bzLh0dPkL._AC_SY300_SX300_QL70_ML2_.jpg",
+      "affiliate_link": "https://www.amazon.co.uk/dp/B0BN4LYFVL?tag=sgukl-21",
+      "category": "Beauty",
+      "added_at": "2026-03-08T17:30:13.535427"
+    },
+    {
       "asin": "B0FRGF81LD",
       "name": "adidas Women's VL Court 3.0 Shoes",
       "price": "\u00a325.51",
