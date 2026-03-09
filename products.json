@@ -1,6 +1,15 @@
 {
   "products": [
     {
+      "asin": "B08FF44TTY",
+      "name": "Charlotte Tilbury Airbrush Flawless Setting Spray (100ml)",
+      "price": "\u00a333.00",
+      "image_url": "https://m.media-amazon.com/images/I/61qEcvOT1OL._AC_SY300_SX300_QL70_ML2_.jpg",
+      "affiliate_link": "https://www.amazon.co.uk/dp/B08FF44TTY?tag=sgukl-21",
+      "category": "Beauty",
+      "added_at": "2026-03-09T17:30:11.657671"
+    },
+    {
       "asin": "B0BN4LYFVL",
       "name": "Applied Nutrition Creatine Flavoured - Creatine Monohydrate Micronized Powder with Flavour, Increases High-Intensity Physical Performance (250g - 50 Servings) (Strawberry & Raspberry)",
       "price": "\u00a39.00",
