@@ -1,6 +1,15 @@
 {
   "products": [
     {
+      "asin": "B07JFHJW9Q",
+      "name": "Philips Lumea 7000 Series, IPL Hair Removal Device, Laser Hair Removal Alternative, with Satin Compact Pen Trimmer, 2 Attachments for Body and Face, Model BRI921/00",
+      "price": "\u00a3240.05",
+      "image_url": "https://m.media-amazon.com/images/I/7173-2oWQuL._AC_SY300_SX300_QL70_ML2_.jpg",
+      "affiliate_link": "https://www.amazon.co.uk/dp/B07JFHJW9Q?tag=sgukl-21",
+      "category": "Beauty",
+      "added_at": "2026-03-12T17:30:57.304495"
+    },
+    {
       "asin": "B0DHRW819R",
       "name": "CurrentBody Skin LED Light Therapy Mask: Series 2 | Red Light LED Face Mask for Advanced Anti-Ageing | Red, Near-Infrared and Deep Near-Infrared Wavelengths for Wrinkle Reduction",
       "price": "\u00a3399.99",
