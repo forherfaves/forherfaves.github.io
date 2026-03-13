@@ -1,6 +1,15 @@
 {
   "products": [
     {
+      "asin": "B0B4HKNDLQ",
+      "name": "Sol de Janeiro Jet Set | Travel Shower Kit",
+      "price": "\u00a324.95",
+      "image_url": "https://m.media-amazon.com/images/I/81tZIwPhoNL._AC_SX342_SY445_QL70_ML2_.jpg",
+      "affiliate_link": "https://www.amazon.co.uk/dp/B0B4HKNDLQ?tag=sgukl-21",
+      "category": "Beauty",
+      "added_at": "2026-03-13T17:30:12.151589"
+    },
+    {
       "asin": "B0FK5FZHN7",
       "name": "Dyson Supersonic\u2122 Hair Dryer",
       "price": "\u00a319.99",
